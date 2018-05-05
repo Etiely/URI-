@@ -1,0 +1,10 @@
+entradas = raw_input().split()
+codigo1=float(entradas[0])
+valor1=float(entradas[1])
+numpecas1=float(entradas[2])
+entradas2 = raw_input().split()
+codigo2=float(entradas2[0])
+valor2=float(entradas2[1])
+numpecas2=float(entradas2[2])
+valort = (valor1*numpecas1)+(valor2*numpecas2)
+print "VALOR A PAGAR: R$ %1.2f"%valort 
